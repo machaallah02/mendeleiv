@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-gap: 2px;
+    padding: 10px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #E0E0E0;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Ajustez la hauteur selon vos besoins */
+}
+
+.image {
+    border-radius: 50%;
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+    max-height: 100%; /* Assurez-vous que l'image ne dépasse pas la hauteur du conteneur */
+}
+
+.atomic-number {
+    font-size: 20px;
+    align-self: flex-start; /* Alignez le numéro atomique en haut à gauche */
+}
+
+.symbol {
+    font-size: 24px;
+}
+
+.atomic-mass {
+    font-size: 14px;
+    align-self: flex-end; /* Alignez la masse atomique en bas à gauche */
+}
+
+/* Personnalisez les couleurs et les styles pour chaque élément en fonction de la périodicité */
+
+
+
+.element.H0{
+    background-color:white; /* Hélium (He) */
+    grid-column: span 16;
+}
+.element.H1{
+    background-color:white; /* Hélium (He) */
+    grid-column: span 10;
+}
+.element.H2{
+    background-color:white; /* Hélium (He) */
+    grid-column: span 10;
+}
+.element.H3{
+    background-color:white; /* Hélium (He) */
+    grid-column: span 1;
+}
+.element.H4{
+    background-color:white; /* Hélium (He) */
+    grid-column: span 18;
+}
+.element.H5{
+    background-color:white; /* Hélium (He) */
+    grid-column: span 3;
+}
+.element.H{
+    background-color: #CC80FF; /* Lithium (Li) */
+}
+.element.Li {
+    background-color: #e74848; /* Lithium (Li) */
+}
+
+.element.O {
+    background-color: #FFD700; /* Hydrogène (H) */
+    
+}
+.element.P {
+    background-color: #f569bf; /* Lithium (Li) */   
+}
+.element.N {
+    background-color: #df9816e7; /* Lithium (Li) */
+}
+.element.M {
+    background-color: #6686ee; /* Lithium (Li) */
+}
+.element.Ma {
+    background-color: #1ec569; 
+}
+.element.G {
+    background-color: #6cd9e775; 
+}
+.element.K {
+    background-color: #64a114; 
+}
+.element.T {
+    background-color: #a4b9ae; 
+}
+.element.S {
+    background-color: #050a0798; 
+}
+.element.U {
+    background-color: #4f30be; 
+}
+
+
+
+
+
+
+
+
+/* Ajoutez le style pour les autres éléments ici */
