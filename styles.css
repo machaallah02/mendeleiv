@@ -36,7 +36,7 @@ body {
 
 .atomic-number {
     font-size: 20px;
-    align-self: flex-start; /* Alignez le numéro atomique en haut à gauche */
+    align-self: flex-start; 
 }
 
 .symbol {
@@ -45,7 +45,7 @@ body {
 
 .atomic-mass {
     font-size: 14px;
-    align-self: flex-end; /* Alignez la masse atomique en bas à gauche */
+    align-self: flex-end; 
 }
 
 /* Personnalisez les couleurs et les styles pour chaque élément en fonction de la périodicité */
@@ -53,48 +53,48 @@ body {
 
 
 .element.H0{
-    background-color:white; /* Hélium (He) */
+    background-color:white; 
     grid-column: span 16;
 }
 .element.H1{
-    background-color:white; /* Hélium (He) */
+    background-color:white; 
     grid-column: span 10;
 }
 .element.H2{
-    background-color:white; /* Hélium (He) */
+    background-color:white; 
     grid-column: span 10;
 }
 .element.H3{
-    background-color:white; /* Hélium (He) */
+    background-color:white; 
     grid-column: span 1;
 }
 .element.H4{
-    background-color:white; /* Hélium (He) */
+    background-color:white; 
     grid-column: span 18;
 }
 .element.H5{
-    background-color:white; /* Hélium (He) */
+    background-color:white; 
     grid-column: span 3;
 }
 .element.H{
-    background-color: #CC80FF; /* Lithium (Li) */
+    background-color: #CC80FF; 
 }
 .element.Li {
-    background-color: #e74848; /* Lithium (Li) */
+    background-color: #e74848; 
 }
 
 .element.O {
-    background-color: #FFD700; /* Hydrogène (H) */
+    background-color: #FFD700; 
     
 }
 .element.P {
-    background-color: #f569bf; /* Lithium (Li) */   
+    background-color: #f569bf;   
 }
 .element.N {
-    background-color: #df9816e7; /* Lithium (Li) */
+    background-color: #df9816e7; 
 }
 .element.M {
-    background-color: #6686ee; /* Lithium (Li) */
+    background-color: #6686ee; 
 }
 .element.Ma {
     background-color: #1ec569; 
